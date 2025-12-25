@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Rest Assured Automation Suite" parallel="false" thread-count="1" verbose="2">
+    
+    <listeners>
+        <listener class-name="com.restassured.automation.listeners.ExtentReportListener"/>
+    
+    </listeners>
+    
+    <test name="1. Pet Tests" preserve-order="true">
+        <classes>
+            <class name="com.restassured.automation.tests.PetTests"/>
+        </classes>
+    </test>
+    
+    <test name="2. Store Tests" preserve-order="true">
+        <classes>
+            <class name="com.restassured.automation.tests.StoreTests"/>
+        </classes>
+    </test>
+    
+    <test name="3. User Tests" preserve-order="true">
+        <classes>
+            <class name="com.restassured.automation.tests.UserTests"/>
+        </classes>
+    </test>
+    
+</suite>

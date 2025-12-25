@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Rest Assured Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\chinmayprabhat\eclipse-workspace\RestAssured-Assignment\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rest_Assured_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 2 failed,  3 skipped,  16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="hide-methods failed suite-Rest_Assured_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Rest_Assured_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="show-methods failed suite-Rest_Assured_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Rest_Assured_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rest_Assured_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.StoreTests" class="method navigator-link" hash-for-method="testGetOrder(3, 8, 1, placed, false)">testGetOrder(3, 8, 1, placed, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testGetUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">testGetUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rest_Assured_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="hide-methods skipped suite-Rest_Assured_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Rest_Assured_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="show-methods skipped suite-Rest_Assured_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Rest_Assured_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Rest_Assured_Automation_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.StoreTests" class="method navigator-link" hash-for-method="testDeleteOrder">testDeleteOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Rest_Assured_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="hide-methods passed suite-Rest_Assured_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Rest_Assured_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" class="show-methods passed suite-Rest_Assured_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Rest_Assured_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rest_Assured_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.StoreTests" class="method navigator-link" hash-for-method="testCreateOrder(4, 9, 2, approved, false)">testCreateOrder(4, 9, 2, approved, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.StoreTests" class="method navigator-link" hash-for-method="testCreateOrder(3, 8, 1, placed, false)">testCreateOrder(3, 8, 1, placed, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testCreatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">testCreatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testCreatePet(9, Cats, Chyrl, photo2.jpg, playful, available)">testCreatePet(9, Cats, Chyrl, photo2.jpg, playful, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testCreateUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">testCreateUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testCreateUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">testCreateUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testDeletePet(9, Cats, Chyrl, photo2.jpg, playful, available)">testDeletePet(9, Cats, Chyrl, photo2.jpg, playful, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testDeletePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">testDeletePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.StoreTests" class="method navigator-link" hash-for-method="testGetOrder(4, 9, 2, approved, false)">testGetOrder(4, 9, 2, approved, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testGetPet(9, Cats, Chyrl, photo2.jpg, playful, available)">testGetPet(9, Cats, Chyrl, photo2.jpg, playful, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testGetPet(8, Dogs, Tyson, photo1.jpg, friendly, available)">testGetPet(8, Dogs, Tyson, photo1.jpg, friendly, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testGetUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">testGetUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">testUpdatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.PetTests" class="method navigator-link" hash-for-method="testUpdatePet(9, Cats, Chyrl, photo2.jpg, playful, available)">testUpdatePet(9, Cats, Chyrl, photo2.jpg, playful, available)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testUserLogin(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">testUserLogin(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Automation_Suite" title="com.restassured.automation.tests.UserTests" class="method navigator-link" hash-for-method="testUserLogin(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">testUserLogin(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rest_Assured_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rest_Assured_Automation_Suite" class="panel Rest_Assured_Automation_Suite">
+          <div class="suite-Rest_Assured_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.restassured.automation.tests.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOrder(3, 8, 1, placed, false)">
+                  </a> <!-- testGetOrder(3, 8, 1, placed, false) -->
+                  <span class="method-name">testGetOrder</span>
+                  <span class="parameters">(3, 8, 1, placed, false)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [8] but found [0]
+	at com.restassured.automation.tests.StoreTests.testGetOrder(StoreTests.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-failed -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.restassured.automation.tests.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">
+                  </a> <!-- testGetUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1) -->
+                  <span class="method-name">testGetUser</span>
+                  <span class="parameters">(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: User retrieval failed expected [200] but found [404]
+	at com.restassured.automation.tests.UserTests.testGetUser(UserTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to get user details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-failed -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.restassured.automation.tests.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteOrder">
+                  </a> <!-- testDeleteOrder -->
+                  <span class="method-name">testDeleteOrder</span>
+                  <div class="stack-trace">java.lang.Throwable: Method StoreTests.testDeleteOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restassured.automation.tests.StoreTests@48f278eb] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-skipped -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.restassured.automation.tests.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserTests.testDeleteUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restassured.automation.tests.UserTests@bae7dc0] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to delete user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserTests.testUpdateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.restassured.automation.tests.UserTests@bae7dc0] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test to update user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-skipped -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.automation.tests.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateOrder(4, 9, 2, approved, false)">
+                  </a> <!-- testCreateOrder(4, 9, 2, approved, false) -->
+                  <span class="method-name">testCreateOrder</span>
+                  <span class="parameters">(4, 9, 2, approved, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateOrder(3, 8, 1, placed, false)">
+                  </a> <!-- testCreateOrder(3, 8, 1, placed, false) -->
+                  <span class="method-name">testCreateOrder</span>
+                  <span class="parameters">(3, 8, 1, placed, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOrder(4, 9, 2, approved, false)">
+                  </a> <!-- testGetOrder(4, 9, 2, approved, false) -->
+                  <span class="method-name">testGetOrder</span>
+                  <span class="parameters">(4, 9, 2, approved, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-passed -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.automation.tests.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">
+                  </a> <!-- testCreateUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1) -->
+                  <span class="method-name">testCreateUser</span>
+                  <span class="parameters">(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                  <em>
+(Test to create user with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">
+                  </a> <!-- testCreateUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0) -->
+                  <span class="method-name">testCreateUser</span>
+                  <span class="parameters">(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                  <em>
+(Test to create user with valid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">
+                  </a> <!-- testGetUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0) -->
+                  <span class="method-name">testGetUser</span>
+                  <span class="parameters">(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                  <em>
+(Test to get user details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)">
+                  </a> <!-- testUserLogin(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1) -->
+                  <span class="method-name">testUserLogin</span>
+                  <span class="parameters">(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                  <em>
+(Test user login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserLogin(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)">
+                  </a> <!-- testUserLogin(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0) -->
+                  <span class="method-name">testUserLogin</span>
+                  <span class="parameters">(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                  <em>
+(Test user login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-passed -->
+          <div class="suite-Rest_Assured_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.automation.tests.PetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">
+                  </a> <!-- testCreatePet(8, Dogs, Tyson, photo1.jpg, friendly, available) -->
+                  <span class="method-name">testCreatePet</span>
+                  <span class="parameters">(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePet(9, Cats, Chyrl, photo2.jpg, playful, available)">
+                  </a> <!-- testCreatePet(9, Cats, Chyrl, photo2.jpg, playful, available) -->
+                  <span class="method-name">testCreatePet</span>
+                  <span class="parameters">(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeletePet(9, Cats, Chyrl, photo2.jpg, playful, available)">
+                  </a> <!-- testDeletePet(9, Cats, Chyrl, photo2.jpg, playful, available) -->
+                  <span class="method-name">testDeletePet</span>
+                  <span class="parameters">(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeletePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">
+                  </a> <!-- testDeletePet(8, Dogs, Tyson, photo1.jpg, friendly, available) -->
+                  <span class="method-name">testDeletePet</span>
+                  <span class="parameters">(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPet(9, Cats, Chyrl, photo2.jpg, playful, available)">
+                  </a> <!-- testGetPet(9, Cats, Chyrl, photo2.jpg, playful, available) -->
+                  <span class="method-name">testGetPet</span>
+                  <span class="parameters">(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetPet(8, Dogs, Tyson, photo1.jpg, friendly, available)">
+                  </a> <!-- testGetPet(8, Dogs, Tyson, photo1.jpg, friendly, available) -->
+                  <span class="method-name">testGetPet</span>
+                  <span class="parameters">(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)">
+                  </a> <!-- testUpdatePet(8, Dogs, Tyson, photo1.jpg, friendly, available) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet(9, Cats, Chyrl, photo2.jpg, playful, available)">
+                  </a> <!-- testUpdatePet(9, Cats, Chyrl, photo2.jpg, playful, available) -->
+                  <span class="method-name">testUpdatePet</span>
+                  <span class="parameters">(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Automation_Suite-class-passed -->
+        </div> <!-- panel Rest_Assured_Automation_Suite -->
+        <div panel-name="test-xml-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\chinmayprabhat\eclipse-workspace\RestAssured-Assignment\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Rest Assured Automation Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.restassured.automation.listeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;1. Pet Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.automation.tests.PetTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 1. Pet Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;2. Store Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.automation.tests.StoreTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 2. Store Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;3. User Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.automation.tests.UserTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 3. User Tests --&gt;
+&lt;/suite&gt; &lt;!-- Rest Assured Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rest Assured Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">1. Pet Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">2. Store Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">3. User Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rest Assured Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rest Assured Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rest_Assured_Automation_Suite');
+function tableData_Rest_Assured_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDeletePet')
+data.setCell(0, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(0, 3, 7033);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUserLogin')
+data.setCell(1, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(1, 3, 5983);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUserLogin')
+data.setCell(2, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(2, 3, 4538);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreatePet')
+data.setCell(3, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(3, 3, 2520);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetOrder')
+data.setCell(4, 2, 'com.restassured.automation.tests.StoreTests')
+data.setCell(4, 3, 2516);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreateOrder')
+data.setCell(5, 2, 'com.restassured.automation.tests.StoreTests')
+data.setCell(5, 3, 2420);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCreateOrder')
+data.setCell(6, 2, 'com.restassured.automation.tests.StoreTests')
+data.setCell(6, 3, 2364);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetUser')
+data.setCell(7, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(7, 3, 2151);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDeletePet')
+data.setCell(8, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(8, 3, 2147);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetPet')
+data.setCell(9, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(9, 3, 1884);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUpdatePet')
+data.setCell(10, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(10, 3, 1539);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetOrder')
+data.setCell(11, 2, 'com.restassured.automation.tests.StoreTests')
+data.setCell(11, 3, 1377);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetPet')
+data.setCell(12, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(12, 3, 1344);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreatePet')
+data.setCell(13, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(13, 3, 1272);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCreateUser')
+data.setCell(14, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(14, 3, 1240);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testUpdatePet')
+data.setCell(15, 2, 'com.restassured.automation.tests.PetTests')
+data.setCell(15, 3, 1233);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCreateUser')
+data.setCell(16, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(16, 3, 1223);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetUser')
+data.setCell(17, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(17, 3, 1158);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testDeleteOrder')
+data.setCell(18, 2, 'com.restassured.automation.tests.StoreTests')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testDeleteUser')
+data.setCell(19, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testUpdateUser')
+data.setCell(20, 2, 'com.restassured.automation.tests.UserTests')
+data.setCell(20, 3, 0);
+window.suiteTableData['Rest_Assured_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Rest_Assured_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-Rest_Assured_Automation_Suite">
+              </div> <!-- times-div-Rest_Assured_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rest Assured Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rest_Assured_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.automation.tests.UserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.automation.tests.PetTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                <span class="method-start">1398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreatePet(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                <span class="method-start">3924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPet(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetPet(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                <span class="method-start">6586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                <span class="method-start">8545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePet(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                <span class="method-start">9779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeletePet(8, Dogs, Tyson, photo1.jpg, friendly, available)</span>
+                <span class="method-start">11341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeletePet(9, Cats, Chyrl, photo2.jpg, playful, available)</span>
+                <span class="method-start">18374 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.automation.tests.StoreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateOrder(3, 8, 1, placed, false)</span>
+                <span class="method-start">21339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateOrder(4, 9, 2, approved, false)</span>
+                <span class="method-start">23759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetOrder(3, 8, 1, placed, false)</span>
+                <span class="method-start">26147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetOrder(4, 9, 2, approved, false)</span>
+                <span class="method-start">28677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteOrder</span>
+                <span class="method-start">30055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.automation.tests.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                <span class="method-start">30225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                <span class="method-start">31449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                <span class="method-start">32705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                <span class="method-start">38688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetUser(testuser1, John, Doe, john@example.com, pass123, 1234567890, 1)</span>
+                <span class="method-start">43293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUser(testuser2, Jane, Smith, jane@example.com, pass456, 987654321, 0)</span>
+                <span class="method-start">45447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">46607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">46608 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

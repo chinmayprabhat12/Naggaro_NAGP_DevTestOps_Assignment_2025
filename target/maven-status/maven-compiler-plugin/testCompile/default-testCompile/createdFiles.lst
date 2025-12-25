@@ -1,0 +1,3 @@
+com\restassured\automation\tests\UserTests.class
+com\restassured\automation\tests\StoreTests.class
+com\restassured\automation\tests\PetTests.class
